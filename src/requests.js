@@ -8,3 +8,5 @@ const getPuzzle = async () => {
         throw new Error('Unable to get puzzle')
     }
 }
+
+export default getPuzzle

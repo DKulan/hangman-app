@@ -58,3 +58,5 @@ class HangMan {
         return `${this.puzzle}`
     }
 }
+
+export default HangMan

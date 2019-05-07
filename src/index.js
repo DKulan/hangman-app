@@ -1,6 +1,7 @@
 import HangMan from './hangman'
 import getPuzzle from './requests'
 
+
 let hangMan1
 const contentEl = document.querySelector('#hangman-content')
 const guessesEl = document.querySelector('#guesses-left')
@@ -29,9 +30,3 @@ const render = () => {
 document.querySelector('#reset').addEventListener('click', startGame)
 
 startGame()
-
-getPuzzle().then(puzzle => {
-    console.log(puzzle)
-}).catch(error => {
-    console.log(`Error: ${error}`)
-})
